@@ -31,7 +31,7 @@ img {
 
 .menu {
     list-style: none;
-    font-family: cursive;
+    font-family: 'Satisfy', cursive;
     position: absolute;
     top: 10px;
     right: 30px;
@@ -49,5 +49,16 @@ img {
 }
 
 .links:hover {
-    background-color: #0004ff;
+    background-color: #fcba03;
+}
+
+.line {
+    height: 6px;
+    background-color: aquamarine;
+    width: 70px;
+    margin: 8px auto;
+}
+
+html {
+    scroll-behavior: smooth;
 }
